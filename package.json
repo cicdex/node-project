@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/cicdex/node-project/issues"
   },
-  "homepage": "https://github.com/cicdex/node-project#readme"
+  "homepage": "https://github.com/cicdex/node-project#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
 }
