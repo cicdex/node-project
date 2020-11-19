@@ -1,0 +1,20 @@
+{
+  "name": "node-project",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cicdex/node-project.git"
+  },
+  "keywords": [],
+  "author": "Igibek Koishybayev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cicdex/node-project/issues"
+  },
+  "homepage": "https://github.com/cicdex/node-project#readme"
+}
