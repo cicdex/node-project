@@ -11,4 +11,4 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - run: isRateLimiting.sh
+    - run: ./isRateLimiting.sh
