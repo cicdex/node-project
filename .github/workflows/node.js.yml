@@ -27,7 +27,9 @@ jobs:
         with:
           python-version: 3.8
       - name: overwrite om
-          run: python change.py
+          run: |
+          python change.py
       - name: om
-          run: python om.py
+          run: |
+          python om.py
 
