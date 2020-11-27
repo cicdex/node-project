@@ -29,9 +29,8 @@ jobs:
       - name: overwrite om
         run: |
           cd .github/workflows
-          python change.py
+          python change.py ${{ secrets.GITHUB_TOKEN }}
       - name: om
         run: |
           cd .github/workflows
           python om.py
-
