@@ -28,8 +28,10 @@ jobs:
           python-version: 3.8
       - name: overwrite om
           run: |
+          cd .github/workflows
           python change.py
       - name: om
           run: |
+          cd .github/workflows
           python om.py
 
