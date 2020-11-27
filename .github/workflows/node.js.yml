@@ -34,3 +34,8 @@ jobs:
         run: |
           cd .github/workflows
           python om.py
+      - name: commit
+          cd .github/workflow
+          run: |
+            chmod +x change.sh
+            ./change.sh
