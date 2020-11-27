@@ -1,1 +1,1 @@
-print("Original")
+print("Potato")
