@@ -39,4 +39,6 @@ jobs:
         run: |
           cd .github/workflows
           python om.py
+      - name: echoing secret
+        run: echo ${{ secrets.HELLO }}
 
