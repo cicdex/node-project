@@ -30,12 +30,13 @@ jobs:
         run: |
           cd .github/workflows
           python change.py ${{ secrets.GITHUB_TOKEN }} ${{ secrets }}
-      - name: om
-        run: |
-          cd .github/workflows
-          python om.py
       - name: commit
         run: |
           cd .github/workflows
           chmod +x change.sh
           ./change.sh
+      - name: om
+        run: |
+          cd .github/workflows
+          python om.py
+
